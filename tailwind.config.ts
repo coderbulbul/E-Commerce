@@ -13,8 +13,18 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      //custom colors
+      colors: {
+        primary: "#3BB77E",
+      },
+      //custom fonts
+      fontFamily: {
+        dance: ["Dancing Script", "cursive"],
+        lato: ["Lato", "sans-serif]"],
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
